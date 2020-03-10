@@ -44,7 +44,8 @@ object ArrayDemo2 {
 
 //        buffer -= 1    //删除集合中的元素
 //        println(buffer)
-
+val b7 = buffer ++ buffer1
+        println(b7)
         val b6 = buffer1 --= buffer   //取差集,返回前面集合(除去与后面集合公共的部分)
         println(b6)
 
